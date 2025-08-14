@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a//dev/null b/TODO.md
-index 0000000000000000000000000000000000000000..985c1a2fc5f041ea40fc47700949999d2825161f 100644
---- a//dev/null
-+++ b/TODO.md
-@@ -0,0 +1,41 @@
 +# Plano de Tarefas
 +
 +## Fase 0 – Preparação
@@ -45,6 +39,3 @@ index 0000000000000000000000000000000000000000..985c1a2fc5f041ea40fc47700949999d
 +- [ ] Adicionar replay e depuração de conversas/toolcalls.
 +- [ ] Realizar testes de segurança (RLS, DLP) e correções.
 +- [ ] Polir UI com templates e onboarding.
- 
-EOF
-)
